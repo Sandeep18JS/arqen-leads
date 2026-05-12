@@ -60,7 +60,7 @@ export default function Hero() {
                 <h1 className="  font-roboto hidden md:block text-[38px] md:text-[50px] md:tracking-[0.1em] font-medium uppercase">
                     Live Ahead,Live Arqen
                 </h1>
-                <button className="mt-10 rounded-full border-2 font-medium border-white px-8 py-3 md:text-md uppercase tracking-[0.1em] transition-all duration-300 hover:bg-white hover:text-black">
+                <button onClick={scrollToContact} className="cursor-pointer mt-10 rounded-full border-2 font-medium border-white px-8 py-3 md:text-md uppercase tracking-[0.1em] transition-all duration-300 hover:bg-white hover:text-black">
                     Arqen Brochures
                 </button>
             </div>
