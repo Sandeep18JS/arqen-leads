@@ -17,7 +17,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
+    <div className="font-roboto">
       <Hero />
       <About />
       <FloorPlans />

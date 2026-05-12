@@ -69,13 +69,13 @@ const Contact = () => {
         "w-full border border-gray-300 rounded-sm px-4 py-4 mt-2 text-gray-800 placeholder-gray-400 text-sm focus:outline-none focus:border-gray-500 transition-colors duration-200 bg-white";
 
     const labelClass =
-        "block text-[14px] md:text-[15px] tracking-[0.12em] uppercase text-black font-semibold";
+        "block text-[14px]  font-anek md:text-[15px] tracking-[0.12em] uppercase text-black font-semibold";
 
     return (
         <div id="contact" className="min-h-screen bg-white flex flex-col  justify-center items-start px-8 md:px-16 py-20 max-w-5xl mx-auto">
 
             {/* Heading */}
-            <h2 className="text-[36px] md:text-[48px] font-normal  tracking-wide uppercase text-gray-900 mb-10">
+            <h2 className="text-[36px] md:text-[48px] font-anek font-normal  tracking-wide uppercase text-gray-900 mb-10">
                 How can we<br />help you?
             </h2>
 

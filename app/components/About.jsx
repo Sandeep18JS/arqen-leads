@@ -7,7 +7,7 @@ const About = () => {
         <section className="w-full bg-white px-4 md:px-16 py-16 max-w-8xl mx-auto">
 
             {/* Heading */}
-            <h1 className="text-[36px] md:text-[48px] font-normal  tracking-wide uppercase text-gray-900 mb-6">
+            <h1 className="text-[36px] md:text-[48px]  font-anek font-normal  tracking-wide uppercase text-gray-900 mb-6">
                 Arqen Dubai
             </h1>
 
@@ -46,7 +46,7 @@ const About = () => {
                 <div className="flex items-center pl-0 md:pl-16 pt-10 md:pt-0">
                     <div className="inline-block border-l-4 border-[#3A453C] pl-6">
 
-                        <h2 className="text-[22px] md:text-[26px] font-light text-gray-800 mb-5">
+                        <h2 className="text-[24px] md:text-[28px] font-anek font-light text-gray-800 mb-5">
                             Arqen Dubai. New Launch
                         </h2>
 

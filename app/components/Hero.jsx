@@ -53,10 +53,10 @@ export default function Hero() {
             />
             {/* Hero Content */}
             <div className="relative top-10 z-10 flex h-full flex-col items-center justify-center text-center text-white px-6">
-                <h1 className="md:hidden text-[38px] md:text-[50px] md:tracking-[0.2em] font-medium uppercase">
+                <h1 className="  font-roboto md:hidden text-[38px] md:text-[50px] md:tracking-[0.1em] font-medium uppercase">
                     Live Ahead,<br />Live Arqen
                 </h1>
-                <h1 className="hidden md:block text-[38px] md:text-[50px] md:tracking-[0.2em] font-medium uppercase">
+                <h1 className="  font-roboto hidden md:block text-[38px] md:text-[50px] md:tracking-[0.1em] font-medium uppercase">
                     Live Ahead,Live Arqen
                 </h1>
                 <button className="mt-10 rounded-full border-2 font-medium border-white px-8 py-3 md:text-md uppercase tracking-[0.1em] transition-all duration-300 hover:bg-white hover:text-black">

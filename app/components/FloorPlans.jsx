@@ -34,7 +34,7 @@ export default function FloorPlans() {
         <section className="overflow-hidden py-20">
             {/* Heading */}
             <div className="mb-6 md:mb-16 px-6 md:px-10">
-                <h2 className="text-[36px] md:text-[48px] font-normal  tracking-wide uppercase text-gray-900">
+                <h2 className="text-[36px] md:text-[48px]  font-anek font-normal  tracking-wide uppercase text-gray-900">
                     Floor Plans
                 </h2>
             </div>
