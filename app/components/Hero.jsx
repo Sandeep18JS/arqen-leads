@@ -39,7 +39,8 @@ export default function Hero() {
 
             {/* Background Image */}
             <Image
-                fill
+                width={1600}
+                height={1600}
                 src="/bgg.jpg"
                 alt="Dubai South"
                 className={`absolute inset-0 h-full w-full object-cover transition-all duration-500 
