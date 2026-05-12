@@ -78,7 +78,7 @@ export default function Hero() {
             {/* Contact Button */}
             <button
                 onClick={scrollToContact}
-                className="hidden md:block fixed -right-12 md:-right-13 top-1/2 z-50 border md:border-[#3A453C]  -translate-y-1/2 -rotate-90 rounded-t-xl bg-white px-2 md:px-3 py-2 md:py-3 text-[#3A453C] shadow-lg transition-all duration-300 cursor-pointer hover:bg-[#3A453C] hover:text-white"
+                className="hidden md:block fixed -right-12 md:-right-12 top-1/2 z-50 border md:border-[#3A453C]  -translate-y-1/2 -rotate-90 rounded-t-xl bg-white px-2 md:pt-2 py-2 md:py-3 text-[#3A453C] shadow-lg transition-all duration-300 cursor-pointer hover:bg-[#3A453C] hover:text-white"
             >
                 <span className="text-sm md:text-md font-bold tracking-[0.1em] uppercase">
                     Contact Us
