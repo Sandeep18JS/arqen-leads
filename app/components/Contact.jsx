@@ -69,13 +69,13 @@ const Contact = () => {
         "w-full border border-gray-300 rounded-sm px-4 py-4 mt-2 text-gray-800 placeholder-gray-400 text-sm focus:outline-none focus:border-gray-500 transition-colors duration-200 bg-white";
 
     const labelClass =
-        "block text-[15px] tracking-[0.12em] uppercase text-black font-semibold";
+        "block text-[14px] md:text-[15px] tracking-[0.12em] uppercase text-black font-semibold";
 
     return (
-        <div className="min-h-screen bg-white flex flex-col  justify-center items-start px-8 md:px-16 py-20 max-w-5xl mx-auto">
+        <div id="contact" className="min-h-screen bg-white flex flex-col  justify-center items-start px-8 md:px-16 py-20 max-w-5xl mx-auto">
 
             {/* Heading */}
-            <h2 className="text-[40px] md:text-[52px] font-light  leading-tight  text-black mb-12 uppercase">
+            <h2 className="text-[36px] md:text-[48px] font-normal  tracking-wide uppercase text-gray-900 mb-10">
                 How can we<br />help you?
             </h2>
 
@@ -157,7 +157,7 @@ const Contact = () => {
                 <button
                     type="submit"
                     disabled={loading}
-                    className="w-full py-4 rounded-full bg-[#3A453C] hover:bg-[#3A453C] text-white text-[13px] tracking-[0.25em] uppercase font-medium transition-colors duration-200 disabled:opacity-50"
+                    className="cursor-pointer w-full py-4 rounded-md bg-[#3A453C] hover:bg-[#3A453C] text-white text-[13px] tracking-[0.25em] uppercase font-medium transition-colors duration-200 disabled:opacity-50"
                 >
                     {loading ? "Sending..." : "Send Message"}
                 </button>
