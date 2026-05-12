@@ -31,7 +31,7 @@ export default function FloorPlans() {
     };
 
     return (
-        <section className="overflow-hidden py-20">
+        <section className="overflow-hidden w-full xl:max-w-[1600px] mx-auto py-20">
             {/* Heading */}
             <div className="mb-6 md:mb-16 px-6 md:px-10">
                 <h2 className="text-[36px] md:text-[48px]  font-anek font-normal  tracking-wide uppercase text-gray-900">

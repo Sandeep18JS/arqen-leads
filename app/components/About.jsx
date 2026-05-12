@@ -4,7 +4,7 @@ import React from "react";
 
 const About = () => {
     return (
-        <section className="w-full bg-white px-4 md:px-16 py-16 max-w-8xl mx-auto">
+        <section className="w-full  bg-white px-4 md:px-16 py-16 xl:max-w-[1600px] mx-auto">
 
             {/* Heading */}
             <h1 className="text-[36px] md:text-[48px]  font-anek font-normal  tracking-wide uppercase text-gray-900 mb-6">
