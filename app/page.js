@@ -19,9 +19,9 @@ export default function Home() {
   return (
     <div className="font-poppins">
       <Hero />
+      <Contact />
       <About />
       <FloorPlans />
-      <Contact />
       <Footer />
     </div>
   );

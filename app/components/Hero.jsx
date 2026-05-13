@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Navbar from "./Navbar";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 export default function Hero() {
     const [isBlurred, setIsBlurred] = useState(false);
@@ -49,20 +50,26 @@ export default function Hero() {
 
             {/* Optional Dark Overlay */}
             <div
-                className={`absolute inset-0 bg-black/5 z-10 transition-all duration-500 ${isBlurred ? "backdrop-blur-[20px]" : "backdrop-blur-0 "
+                className={`absolute inset-0 bg-black/10 z-10 transition-all duration-500 ${isBlurred ? "backdrop-blur-[20px]" : "backdrop-blur-0 "
                     }`}
             />
             {/* Hero Content */}
             <div className="relative top-10 z-10 flex h-full flex-col items-center justify-center text-center text-white px-6">
-                <h1 className="   md:hidden text-[38px] md:text-[50px] md:tracking-[0.1em] font-medium uppercase">
-                    Live Ahead,<br />Live Arqen
+                <h1 className="   md:hidden text-[38px] md:text-[56px] md:tracking-[0.08em] font-medium uppercase">
+                    OFFPLAN DEALS
                 </h1>
-                <h1 className="  font-poppins hidden md:block text-[38px] md:text-[50px] md:tracking-[0.1em] font-medium uppercase">
-                    Live Ahead,Live Arqen
+                <h1 className="  font-poppins hidden md:block text-[38px] md:text-[56px] md:tracking-[0.08em] font-medium uppercase">
+                    OFFPLAN DEALS
                 </h1>
-                <button onClick={scrollToContact} className="cursor-pointer mt-10 rounded-full border-2 font-medium border-white px-8 py-3 md:text-md uppercase tracking-[0.1em] transition-all duration-300 hover:bg-white hover:text-black">
-                    Arqen Brochures
-                </button>
+                <div className="mt-5 space-y-1.5">
+
+                    <p className="text-xs md:text-[16px]  font-semibold uppercase tracking-[0.06em]">
+                        Booking Closing Soon - 15th May Deadline
+                    </p>
+                </div>
+                <Link href="tel:+971 56 1425554" className="cursor-pointer mt-10 backdrop-blur-[2px] rounded-full border-2 font-semibold border-white px-8 py-3 md:text-md uppercase tracking-[0.02em] transition-all duration-300 hover:bg-white hover:text-black">
+                    Call Us Now
+                </Link>
             </div>
 
             {/* Scroll Indicator */}
