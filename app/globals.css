@@ -6,17 +6,11 @@
 
 
 @theme inline {
-  --font-anek: 'Anek', sans-serif;
-  --font-roboto: 'Roboto', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
 }
 
 
 @font-face {
-  font-family: "Anek";
-  src: url('/anek.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url('/roboto.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url('/poppins.otf') format('opentype');
 }

@@ -34,7 +34,7 @@ export default function FloorPlans() {
         <section className="overflow-hidden w-full xl:max-w-[1600px] mx-auto py-20">
             {/* Heading */}
             <div className="mb-6 md:mb-16 px-6 md:px-10">
-                <h2 className="text-[36px] md:text-[48px]  font-anek font-normal  tracking-wide uppercase text-gray-900">
+                <h2 className="text-[36px] md:text-[48px]   font-normal  tracking-wide uppercase text-gray-900">
                     Floor Plans
                 </h2>
             </div>
@@ -46,8 +46,8 @@ export default function FloorPlans() {
                 <div className="hidden lg:block absolute left-0 xl:left-10">
                     <div className="relative h-[360px] w-[180px] overflow-hidden  opacity-70 scale-[0.88] transition-all duration-500">
                         <Image
-                            width={800}
-                            height={800}
+                            width={1600}
+                            height={1600}
                             src={plans[getIndex(-1)]}
                             alt=""
                             className="object-contain p-4"
@@ -58,7 +58,7 @@ export default function FloorPlans() {
                 {/* LEFT BUTTON */}
                 <button
                     onClick={prevSlide}
-                    className="absolute left-0 md:left-[18%] z-20 flex h-10 md:h-20 w-10 md:w-20 items-center justify-center rounded-full bg-white  transition-all duration-300 hover:scale-105"
+                    className="absolute left-0 md:left-[18%] border border-black/10 z-20 flex h-10 md:h-20 w-10 md:w-20 items-center justify-center rounded-full bg-white  transition-all duration-300 hover:scale-105"
                 >
                     <ChevronLeft
                         size={52}
@@ -71,7 +71,8 @@ export default function FloorPlans() {
                 <div className="relative h-[260px] w-[90%] md:h-[500px] md:w-[760px] overflow-hidden  ">
                     <Image
                         key={plans[activeIndex]}
-                        fill
+                        width={1600}
+                        height={1600}
                         src={plans[activeIndex]}
                         alt=""
                         className="object-contain p-4 md:p-6 transition-all duration-500"
@@ -81,7 +82,7 @@ export default function FloorPlans() {
                 {/* RIGHT BUTTON */}
                 <button
                     onClick={nextSlide}
-                    className="absolute right-0 md:right-[18%] z-20 flex h-10 md:h-20 w-10 md:w-20 items-center justify-center rounded-full bg-white  transition-all duration-300 hover:scale-105"
+                    className="absolute right-0 md:right-[18%] border border-black/10 z-20 flex h-10 md:h-20 w-10 md:w-20 items-center justify-center rounded-full bg-white  transition-all duration-300 hover:scale-105"
                 >
                     <ChevronRight
                         size={52}
@@ -94,7 +95,8 @@ export default function FloorPlans() {
                 <div className="hidden lg:block absolute right-0 xl:right-10">
                     <div className="relative h-[360px] w-[180px] overflow-hidden  opacity-70 scale-[0.88] transition-all duration-500">
                         <Image
-                            fill
+                            width={1600}
+                            height={1600}
                             src={plans[getIndex(1)]}
                             alt=""
                             className="object-contain p-4"

@@ -13,7 +13,7 @@ const Navbar = () => {
                     alt="scroll down"
                     className="w-[150px] md:w-[200px] h-auto "
                 />
-                <div className='text-[18px] md:text-[20px] font-roboto flex gap-10 md:gap-14 text-white uppercase font-medium tracking-[0.1em] items-center mt-4'>
+                <div className='text-[18px] md:text-[20px] font-poppins flex gap-10 md:gap-14 text-white uppercase font-medium tracking-[0.1em] items-center mt-4'>
                     <h3>Live</h3>
                     <h3>Work</h3>
                     <h3>Thrive</h3>

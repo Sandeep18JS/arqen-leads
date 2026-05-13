@@ -17,7 +17,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="font-roboto">
+    <div className="font-poppins">
       <Hero />
       <About />
       <FloorPlans />
