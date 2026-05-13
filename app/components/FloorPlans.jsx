@@ -46,7 +46,8 @@ export default function FloorPlans() {
                 <div className="hidden lg:block absolute left-0 xl:left-10">
                     <div className="relative h-[360px] w-[180px] overflow-hidden  opacity-70 scale-[0.88] transition-all duration-500">
                         <Image
-                            fill
+                            width={800}
+                            height={800}
                             src={plans[getIndex(-1)]}
                             alt=""
                             className="object-contain p-4"

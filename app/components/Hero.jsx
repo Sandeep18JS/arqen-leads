@@ -49,7 +49,7 @@ export default function Hero() {
 
             {/* Optional Dark Overlay */}
             <div
-                className={`absolute inset-0 bg-white/10 z-10 transition-all duration-500 ${isBlurred ? "backdrop-blur-[20px]" : "backdrop-blur-0"
+                className={`absolute inset-0 bg-black/5 z-10 transition-all duration-500 ${isBlurred ? "backdrop-blur-[20px]" : "backdrop-blur-0 "
                     }`}
             />
             {/* Hero Content */}
